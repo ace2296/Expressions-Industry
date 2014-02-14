@@ -14,4 +14,4 @@ var oneFifth = fullWidth / 5;
 var oneSixth = fullWidth / 6;
 
 
-alert("Total width of your grid is " + gridSize + "px and your column widths for " + numberofColumns + "are \n Fullwidth:" + fullWidth + "px \nOne Half Column: " + oneHalf + "px \nTwo Third Column: " + oneThird + "px \nOne Forth Column: " + oneFourth + "px \nOne Fifth Column: " + oneFifth + "px \nOne Sixth Column: " + oneSixth + "px" );
+alert("Total width of your grid is " + gridSize + "px and your css column widths for " + numberofColumns + " columns are \n Fullwidth:" + fullWidth + "px \nOne Half Column: " + oneHalf + "px \nTwo Third Column: " + oneThird + "px \nOne Forth Column: " + oneFourth + "px \nOne Fifth Column: " + oneFifth + "px \nOne Sixth Column: " + oneSixth + "px" );
