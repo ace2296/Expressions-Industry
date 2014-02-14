@@ -2,11 +2,11 @@
 
 var gridSize = prompt("What size is your grid container in pixels? i.e. 960, 1000, 1100, etc. (write without px)");
 var numberofColumns = prompt("How many columns would you like? i.e. 8, 10, 12");
-var marginSpace = prompt("How much space would you like inbetween your columns?");
+var padding = prompt("How much padding outside each column?");
 
-var AllColumnSize = (gridSize - marginSpace) / numberofColumns;
+padding *= 2
 
-var fullWidth = (gridSize - marginSpace) + "px";
+var fullWidth = (gridSize -padding) + "px";
 
 
-alert("Total width of your grid is " + gridSize + "px and your column widths for " + numberofColumns + "are \n Fullwidth column:" + fullWidth + "px \n" );
+alert("Total width of your grid is " + gridSize + "px and your column widths for " + numberofColumns + "are \n Fullwidth:" + fullWidth + "px \n" );
