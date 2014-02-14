@@ -8,7 +8,7 @@ padding == numberofColumns * 2 //Calculates the total padding pixels
 
 var fullWidth = (gridSize - padding); //Calculates Full-Width Column width in px
 var oneHalf = fullWidth / 2; //Calculates One-Half Column (2 columns) width in px
-var oneThird = fullWidth / 3;
+var oneThird = fullWidth / 3; //Calculates One-Third Columns (3 columns) width in px
 var oneFourth = fullWidth / 4;
 var oneFifth = fullWidth / 5;
 var oneSixth = fullWidth / 6;
