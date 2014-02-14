@@ -4,7 +4,7 @@ var gridSize = prompt("What size is your grid container in pixels? i.e. 960, 100
 var numberofColumns = prompt("How many columns would you like? i.e. 8, 10, 12");
 var padding = prompt("How much padding outside each column?");
 
-padding *= 2
+padding == numberofColumns * 2
 
 var fullWidth = (gridSize - padding);
 var oneHalf = fullWidth / 2;
