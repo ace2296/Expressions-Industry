@@ -13,5 +13,9 @@ var oneFourth = fullWidth / 4; //Calculates One-Fourth Columns (4 columns) width
 var oneFifth = fullWidth / 5; //Calculates One-Fifth Columns (5 columns) width in px
 var oneSixth = fullWidth / 6; //Calculates One-Sixth Columns (6 columns) width in px
 
+//Final result with column widths to insert you css code
 
 alert("Total width of your grid is " + gridSize + "px and your css column widths for " + numberofColumns + " columns are \n Fullwidth:" + fullWidth + "px \nOne Half Column: " + oneHalf + "px \nTwo Third Column: " + oneThird + "px \nOne Forth Column: " + oneFourth + "px \nOne Fifth Column: " + oneFifth + "px \nOne Sixth Column: " + oneSixth + "px" );
+
+//Console log to refer back to
+console.log("Total width of your grid is " + gridSize + "px and your css column widths for " + numberofColumns + " columns are \n Fullwidth:" + fullWidth + "px \nOne Half Column: " + oneHalf + "px \nTwo Third Column: " + oneThird + "px \nOne Forth Column: " + oneFourth + "px \nOne Fifth Column: " + oneFifth + "px \nOne Sixth Column: " + oneSixth + "px" );
